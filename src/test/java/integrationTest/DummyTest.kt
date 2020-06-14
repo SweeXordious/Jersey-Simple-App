@@ -13,8 +13,6 @@ import javax.ws.rs.core.Application
 
 class DummyTest : JerseyTest() {
 
-    val testClient = ClientBuilder.newClient()
-
     @BeforeEach
     override fun setUp() {
         super.setUp()
