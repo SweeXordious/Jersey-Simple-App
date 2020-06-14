@@ -1,6 +1,6 @@
-package com.server
+package com.dummy1
 
-import com.api.DummyApi
+import com.dummy1.DummyApi
 
 class DummyImpl : DummyApi {
     override fun first(): String {

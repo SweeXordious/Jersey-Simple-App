@@ -15,9 +15,7 @@ class JettyServer(
 
         val contextHandler = ServletContextHandler(ServletContextHandler.NO_SESSIONS).apply {
             contextPath = "/"
-            addServlet(ServletHolder(ServletContainer(ResourceConfig())), "/*").also {
-                setInitParameter("jersey.config.server.provider.packages", "com")
-            }
+            addServlet(ServletHolder(ServletContainer(ResourceConfig())), "/*")
         }
 
         Server().apply{

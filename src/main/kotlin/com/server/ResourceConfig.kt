@@ -1,10 +1,11 @@
 package com.server
 
+import com.BaseDummyImpl
 import org.glassfish.jersey.server.ResourceConfig
 
 class ResourceConfig :  ResourceConfig(){
 
     init {
-        register(DummyWithAnotherPathImpl::class.java, DummyImpl::class.java)
+        register(BaseDummyImpl::class.java)
     }
 }

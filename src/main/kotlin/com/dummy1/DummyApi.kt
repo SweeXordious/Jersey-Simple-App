@@ -1,11 +1,10 @@
-package com.api
+package com.dummy1
 
 import javax.ws.rs.GET
 import javax.ws.rs.Path
 import javax.ws.rs.PathParam
 
-@Path("/dummy")
-interface DummyApi {
+interface DummyApi{
     @GET
     @Path("first")
     fun first() : String
