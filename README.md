@@ -18,3 +18,6 @@ Served using an embedded Jetty server.
 - using Service Provider Interface (SPI)
 
 Check the `ResourceConfig` class for more information.
+
+##### Integration test
+Uses `JerseyTest` framework.
