@@ -20,6 +20,12 @@ dependencies {
 
     implementation 'org.eclipse.jetty:jetty-server:9.4.29.v20200521'
     implementation 'org.eclipse.jetty:jetty-servlet:9.4.29.v20200521'
+
+    testImplementation 'org.glassfish.jersey.test-framework:jersey-test-framework-core:2.31'
+    testImplementation 'org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-grizzly2:2.31'
+    testImplementation "com.willowtreeapps.assertk:assertk-jvm:0.22"
+    testImplementation "org.junit.jupiter:junit-jupiter:5.5.2"
+
 }
 
 compileKotlin {
@@ -31,4 +37,8 @@ compileTestKotlin {
 
 repositories{
     maven { url 'https://repo.gradle.org/gradle/libs-releases' }
+}
+
+test {
+    useJUnitPlatform()
 }
