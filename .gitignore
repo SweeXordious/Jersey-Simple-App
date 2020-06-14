@@ -1,0 +1,16 @@
+/build/classes/kotlin/main/com/anotherDummy/AnotherDummy.class
+/build/classes/kotlin/main/com/anotherDummy/AnotherDummyImpl.class
+/build/classes/kotlin/main/com/anotherDummy/Dummy2.class
+/build/classes/kotlin/main/com/dummy1/Dummy1.class
+/build/classes/kotlin/main/com/dummy1/DummyApi.class
+/build/classes/kotlin/main/com/dummy1/DummyImpl.class
+/build/classes/kotlin/main/com/BaseDummy.class
+/build/classes/kotlin/main/com/BaseDummyApi.class
+/build/classes/kotlin/main/com/BaseDummyImpl.class
+/build/classes/kotlin/main/com/Dummies.class
+/build/classes/kotlin/main/com/DummiesImpl$findAll$1.class
+/build/classes/kotlin/main/com/DummiesImpl.class
+/build/resources/main/META-INF/services/com.spi.BaseDummyProviderInterface
+/build/classes/kotlin/main/com/spi/BaseDummyLoader.class
+/build/classes/kotlin/main/com/spi/BaseDummyProviderImpl.class
+/build/classes/kotlin/main/com/spi/BaseDummyProviderInterface.class
