@@ -2,6 +2,7 @@ package api.com
 
 import api.com.anotherDummy.AnotherDummyImpl
 import api.com.Dummies
+import api.com.dummy1.Dummy
 import api.com.dummy1.DummyImpl
 import org.glassfish.jersey.server.ExtendedUriInfo
 import org.glassfish.jersey.server.internal.routing.UriRoutingContext

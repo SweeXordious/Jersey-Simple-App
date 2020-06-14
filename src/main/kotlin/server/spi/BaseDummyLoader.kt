@@ -1,4 +1,4 @@
-package server
+package server.spi
 
 import api.com.BaseDummyApi
 import spi.BaseDummyProviderInterface

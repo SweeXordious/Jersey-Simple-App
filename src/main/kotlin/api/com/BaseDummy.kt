@@ -1,4 +1,4 @@
 package api.com
 
-class BaseDummy {
+abstract class BaseDummy {
 }
