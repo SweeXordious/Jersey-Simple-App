@@ -17,4 +17,4 @@ Served using an embedded Jetty server.
 - using direct reference to the implementation class
 - using Service Provider Interface (SPI)
 
-Check the `ResourceConfig` class for more information
+Check the `ResourceConfig` class for more information.
