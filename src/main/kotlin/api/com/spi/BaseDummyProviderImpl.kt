@@ -1,7 +1,8 @@
-package com.spi
+package api.com.spi
 
-import com.BaseDummyApi
-import com.BaseDummyImpl
+import api.com.BaseDummyApi
+import api.com.BaseDummyImpl
+import spi.BaseDummyProviderInterface
 
 class BaseDummyProviderImpl : BaseDummyProviderInterface {
     override fun get(): Class<out BaseDummyApi> {

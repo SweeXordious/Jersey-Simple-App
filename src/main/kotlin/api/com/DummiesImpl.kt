@@ -1,8 +1,8 @@
-package com
+package api.com
 
-import com.anotherDummy.AnotherDummyImpl
-import com.Dummies
-import com.dummy1.DummyImpl
+import api.com.anotherDummy.AnotherDummyImpl
+import api.com.Dummies
+import api.com.dummy1.DummyImpl
 import org.glassfish.jersey.server.ExtendedUriInfo
 import org.glassfish.jersey.server.internal.routing.UriRoutingContext
 import org.glassfish.jersey.server.model.Resource

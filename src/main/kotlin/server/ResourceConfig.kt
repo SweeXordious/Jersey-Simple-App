@@ -1,7 +1,5 @@
-package com.server
+package server
 
-import com.BaseDummyImpl
-import com.spi.BaseDummyLoader
 import org.glassfish.jersey.server.ResourceConfig
 
 class ResourceConfig :  ResourceConfig(){

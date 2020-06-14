@@ -1,6 +1,7 @@
-package com.spi
+package server
 
-import com.BaseDummyApi
+import api.com.BaseDummyApi
+import spi.BaseDummyProviderInterface
 import java.util.*
 import java.util.function.Supplier
 

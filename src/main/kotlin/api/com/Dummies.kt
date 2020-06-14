@@ -1,7 +1,7 @@
-package com
+package api.com
 
-import com.anotherDummy.AnotherDummy
-import com.dummy1.DummyApi
+import api.com.anotherDummy.AnotherDummy
+import api.com.dummy1.DummyApi
 import javax.ws.rs.GET
 import javax.ws.rs.Path
 

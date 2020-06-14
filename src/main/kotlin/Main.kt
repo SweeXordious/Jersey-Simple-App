@@ -1,4 +1,4 @@
-import com.server.JettyServer
+import server.JettyServer
 
 fun main() {
     JettyServer().start()

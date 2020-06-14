@@ -1,7 +1,7 @@
-package com.spi
+package spi
 
-import com.BaseDummy
-import com.BaseDummyApi
+import api.com.BaseDummy
+import api.com.BaseDummyApi
 import java.util.function.Supplier
 
 /*

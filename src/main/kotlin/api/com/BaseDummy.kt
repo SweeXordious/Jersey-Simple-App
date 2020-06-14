@@ -1,4 +1,4 @@
-package com
+package api.com
 
 class BaseDummy {
 }

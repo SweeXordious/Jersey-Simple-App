@@ -1,4 +1,4 @@
-package com.anotherDummy
+package api.com.anotherDummy
 
 class AnotherDummyImpl : AnotherDummy {
 

@@ -1,4 +1,4 @@
-package com
+package api.com
 
 import javax.ws.rs.Path
 

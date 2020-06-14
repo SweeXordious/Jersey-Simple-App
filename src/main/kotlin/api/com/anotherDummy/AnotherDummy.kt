@@ -1,4 +1,4 @@
-package com.anotherDummy
+package api.com.anotherDummy
 
 import javax.ws.rs.GET
 import javax.ws.rs.Path

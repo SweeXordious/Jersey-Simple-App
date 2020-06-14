@@ -1,6 +1,6 @@
-package com.dummy1
+package api.com.dummy1
 
-import com.dummy1.DummyApi
+import api.com.dummy1.DummyApi
 
 class DummyImpl : DummyApi {
     override fun first(): String {

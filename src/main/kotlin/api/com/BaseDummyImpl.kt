@@ -1,4 +1,4 @@
-package com
+package api.com
 
 import org.glassfish.jersey.server.ExtendedUriInfo
 import javax.ws.rs.core.Context
