@@ -31,4 +31,9 @@ class DummyTest : JerseyTest() {
     fun `listing test`() {
         assert(target("/dum/dummies").request().get().readEntity(String::class.java) == "dummy, anotherDummy")
     }
+
+    @Test
+    fun `Sse test`() {
+        assert(target("/dum/dummies/sse/events").request().get().readEntity(String::class.java).contains("event"))
+    }
 }
