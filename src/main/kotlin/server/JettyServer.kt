@@ -25,7 +25,6 @@ class JettyServer(
                 port = serverPort
             })
             start()
-            join()
         }
     }
 }
