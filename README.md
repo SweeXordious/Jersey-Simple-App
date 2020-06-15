@@ -21,3 +21,6 @@ Check the `ResourceConfig` class for more information.
 
 ##### Integration test
 Uses `JerseyTest` framework.
+
+##### Events
+Events are handled using Server-Side Events (SSE). You can find a simple SSE client as well.
